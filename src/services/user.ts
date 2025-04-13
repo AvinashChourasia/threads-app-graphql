@@ -66,9 +66,9 @@ class UserService {
         return token;
     }
 
-    // public static decodeJWTToken(token: string) {
-    //     return JWT.verify(token, JWT_SECRET);
-    // }
+    public static decodeJWTToken(token: string) {
+        return JWT.verify(token, JWT_SECRET);
+    }
 }
 
 export default UserService;
