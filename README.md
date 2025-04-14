@@ -65,3 +65,22 @@ git checkout -b main -> Create/switch to main
 
 
 
+## Docker commands :- 
+
+first install, docker desktop, configure it
+docker -> get info about docker
+
+create docker-compose.yml file =>  add the postgres db into it
+
+docker compose up   -> to start the docker
+
+Docker Compose is a tool that helps you define and run multi-container Docker applications. Instead of running docker run commands for each service, you describe everything in one file — the docker-compose.yml file — and bring it all up with a single command:  docker compose up
+
+It's a YAML (YAML Ain't Markup Language) file that describes how to run your containers. It includes things like:
+What images to use
+What ports to expose
+What environment variables to set
+What volumes to mount
+What services are included (e.g., database, backend, frontend)
+
+
