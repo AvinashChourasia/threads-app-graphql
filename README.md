@@ -104,14 +104,17 @@ Generate TypeScript client
 
 3. Use prismaClient in your app to query the DB
 
-## Install prisma
+## Git Commands for prisma :-
+
+Install prisma -> 
+
 yarn add prisma --dev
 yarn add @prisma/client
 
-## Init prisma
-npx prisma init
+Init prisma -> npx prisma init
 
-## After writing schema.prisma, run migration
+After writing schema.prisma, run migration
+
 npx prisma migrate dev --name init
 
 
