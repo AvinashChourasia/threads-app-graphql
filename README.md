@@ -40,3 +40,28 @@ threads=# select * from users;
  id | first_name | last_name | profile_image_url | email | password | salt
 ----+------------+-----------+-------------------+-------+----------+------
 (0 rows)
+
+
+
+## Git Commands :-
+
+
+npx gitignore Node
+
+git init   -> Initialize Git repo
+
+git add .  -> Stage all changes
+
+git commit -m "commit name"   -> Commit changes
+
+git remote add origin <url>   -> Add remote origin
+
+git push -u origin main  -> Push to GitHub
+
+git branch -> Check current branch
+
+git checkout -b main -> Create/switch to main
+
+
+
+
