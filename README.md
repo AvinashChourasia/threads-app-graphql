@@ -85,7 +85,7 @@ What services are included (e.g., database, backend, frontend)
 
 
 
-## Prisma configuration to interact with db :-
+# Prisma configuration to interact with db :-
 
 
 Prisma is a next-generation ORM (Object Relational Mapper) for Node.js and TypeScript. It makes working with databases super easy by letting you:
@@ -94,7 +94,7 @@ Interact with your DB using TypeScript/JS code
 Get auto-generated and type-safe queries
 Easily migrate and manage your schema
 
-# Prisma Workflow (High-Level)
+## Prisma Workflow (High-Level)
 
 1. Define your data models in schema.prisma
 
@@ -104,15 +104,14 @@ Generate TypeScript client
 
 3. Use prismaClient in your app to query the DB
 
-
-# Install prisma
+## Install prisma
 yarn add prisma --dev
 yarn add @prisma/client
 
-# Init prisma
+## Init prisma
 npx prisma init
 
-# After writing schema.prisma, run migration
+## After writing schema.prisma, run migration
 npx prisma migrate dev --name init
 
 
